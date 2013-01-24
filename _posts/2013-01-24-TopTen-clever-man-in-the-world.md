@@ -1,6 +1,6 @@
 ---
 layout: tb1
-title: 全球最聪明人排行榜出炉
+title: 全球最聪明人排行榜出炉2
 ---
 
 ##{{ page.title }}
