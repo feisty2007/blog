@@ -5,14 +5,15 @@ title: 我的Blog
 
 <h2>{{ page.title }}</h2>
 
-<p>最新文章</p>
+<p align=left>最新文章</p>
 
-<ul>
+<table class="table table-striped">
 
 　{% for post in site.posts %} 
-
-　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
+    <tr>
+　　  <td align=left>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </td>
+    </tr>
 　{% endfor %}
 
-</ul>
+</table>
