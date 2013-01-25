@@ -1,8 +1,9 @@
-===
+---
 layout: tb2
 title: Outlook 2007无法打开链接"由于本机的限制 该操作已被取消"
-===
+---
 
+## {{ page.title}}
 原因：安装过chrome，firefox或其它第三方浏览器导致outlook无法打开链接。
 
  
@@ -37,3 +38,4 @@ WORD Internet链接设置；
 
 搞定。
 
+{{ page.date | date_to_string }}
