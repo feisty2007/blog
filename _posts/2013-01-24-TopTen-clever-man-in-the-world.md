@@ -1,5 +1,5 @@
 ---
-layout: tb1
+layout: tl_article
 title: 全球最聪明人排行榜出炉2
 ---
 
