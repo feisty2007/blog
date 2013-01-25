@@ -1,5 +1,5 @@
 ---
-layout: tb2
+layout: tb1
 title: Outlook 2007无法打开链接"由于本机的限制 该操作已被取消"
 ---
 
